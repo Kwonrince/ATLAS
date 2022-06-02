@@ -2,11 +2,11 @@
 https://youtu.be/KqJ1miFdxvw
 
 
-# Framework
+## Framework
 <img src="https://user-images.githubusercontent.com/72617445/171579714-cfc80cef-568f-407c-8aac-19735d6aaa57.png" width="60%" height="40%">
 
 
-# Dependecies
+## Dependecies
 - python >= 3.7
 - pytorch >= 1.10
 - transformers == 4.19.2
@@ -15,7 +15,7 @@ https://youtu.be/KqJ1miFdxvw
 - numpy
 - pandas
 
-# Data preprocess
+## Data preprocess
 CNN/DM dataset will be automatically downloaded and make positive & negative samples.
 
 You can change ratio.
@@ -23,7 +23,7 @@ You can change ratio.
 python preprocess.py
 ```
 
-# Train
+## Train
 You can check the details in the parser.
 
 - Train baseline
@@ -36,5 +36,5 @@ python main.py --triplet False --batch_size 4 --devices 0_1_2_3
 python main.py --batch_size 4 --devices 0_1_2_3
 ```
 
-# Evaluate
+## Evaluate
 Check inference.py
