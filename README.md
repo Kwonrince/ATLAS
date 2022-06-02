@@ -2,8 +2,13 @@
 
 # Dependecies
 
-python >= 3.6
-pytorch == 1.4
-transformers == 3.0.2
-tqdm
-numpy
+- python >= 3.6
+
+- pytorch == 1.4
+
+- transformers == 3.0.2
+
+- tqdm
+
+- numpy
+
